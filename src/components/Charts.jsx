@@ -2,15 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {
   LineChart, Line, AreaChart, Area, BarChart, Bar,
-  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, ReferenceLine,
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine,
 } from 'recharts';
 import { FiTrendingUp, FiLayers, FiBarChart2 } from 'react-icons/fi';
-import { formatINR } from '../utils/calculations';
 
 const GOLD = '#C9A227';
 const GOLD_LIGHT = '#E8C84A';
 const GREEN = '#4ade80';
-const BLUE = '#60a5fa';
 
 const tooltipStyle = {
   backgroundColor: '#1a1a1a',
